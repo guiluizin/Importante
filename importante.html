@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body style="background-color: #b21613; 
+    font-family: Arial, sans-serif;
+    border: 0;
+    padding: 0;">
+
+    <div id="parte1" style="display: flex; 
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center; 
+        width: 100%;
+        margin-top: 60%;">
+
+        <h1 style= "color: #fff;   
+            font-size: 16pt;
+            margin-bottom: 0px;">
+            Clique somente se você for a Camila</h1>
+
+        <h2 style="color: #fff; 
+            font-size: 22pt;">
+            Extremamente Importante!</h2>
+
+        <button id="botao1" style="background-color: #fff; 
+            color: #b21613; 
+            width: 200px;
+            font-size: 20pt;
+            font-weight: 600;
+            height: 50px;
+            border-radius: 30px;
+            border-color: #fff;
+            border-style: none;">
+            Clique Aqui</button>
+    </div>
+
+    <div id="parte2" style="display: none;
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center; 
+        width: 100%;
+        padding: 0;">
+
+        <p style="font-size: 80pt; color: #fff; margin-bottom: 0;">EU TE</p>
+
+        <div style="width: 80%;">
+        <p style="font-size: 30pt; 
+            color: #fff; 
+            text-align: center;
+            word-wrap: break-word;">
+            AMOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO</p>
+        </div>
+
+        <img src="https://estudioweb.com.br/wp-content/uploads/2022/11/Emoji-coracao-branco-png.png" width="300px">
+
+    </div>
+
+    <script>
+        document.getElementById("botao1").addEventListener("touchstart", function() {
+            document.getElementById("parte1").style.display = "none";
+            document.getElementById("parte2").style.display = "flex";
+
+        });
+    </script>
+</body>
+</html>
